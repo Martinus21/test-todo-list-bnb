@@ -1,0 +1,101 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  background-color: #e9f5fb;
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  width: 450px;
+  height: auto;
+  margin: 50px auto;
+  background: rgba(255, 237, 218, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  box-shadow: 10px 10px 6px 0px rgba(255, 225, 148, 0.75);
+  -webkit-box-shadow: 10px 10px 6px 0px rgba(255, 225, 148, 0.75);
+  -moz-box-shadow: 10px 10px 6px 0px rgba(255, 225, 148, 0.75);
+}
+
+li {
+  box-sizing: border-box;
+  display: flex;
+  margin: 1rem;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  padding: 0.35rem 1rem;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+}
+.input-list {
+  box-sizing: border-box;
+  margin: 1rem;
+  margin-right: 0;
+  padding-left: 1rem;
+  background: #e6ddc6;
+  font-size: 1rem;
+  flex: 1 0 auto;
+  color: #4c4c6d;
+  border-color: transparent;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0;
+}
+.button-sub {
+  background: #ffb830;
+  color: whitesmoke;
+  margin: 1rem;
+  margin-left: 0;
+  flex: 0 0 5rem;
+  border-color: transparent;
+  flex: 0 0 5rem;
+  display: grid;
+  align-items: center;
+  padding: 0.7rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  content: #49a6e9;
+  transition: all 0.3s linear;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.button-dlt {
+  background: #ff2442;
+  color: whitesmoke;
+  flex: 0 0 5rem;
+  cursor: pointer;
+  border-color: transparent;
+  border-radius: 7px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.not-selected {
+  background-color: #3db2ff;
+  color: whitesmoke;
+}
+.selected {
+  background-color: #ff2442;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 10px auto;
+}
